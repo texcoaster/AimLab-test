@@ -15,6 +15,10 @@ class Button:
 
         self.font = pygame.font.SysFont(FONT_NAME, FONT_SIZE)
 
+    def set_text(self, new_text):
+        """Updates the text displayed on the button."""
+        self.text = new_text
+
     def draw(self, screen):
         color = self.hover_color if self.is_hovered else self.button_color
         pygame.draw.rect(screen, color, self.rect)

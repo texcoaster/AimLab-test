@@ -12,5 +12,5 @@ GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 GREY = (200, 200, 200)
 
-FONT_NAME = "Arial"
+FONT_NAME = "Malgun Gothic"
 FONT_SIZE = 36
